@@ -5,7 +5,7 @@ s.license = { :type => "MIT", :file => 'LICENSE.txt' }
 s.summary = 'An iOS passcode lock with Touch ID authentication written in Swift.'
 s.homepage = 'https://github.com/askfromap/PassCodeLock-Swift3'
 s.authors = { 'Yanko Dimitrov' => '' }
-s.source = { :git => 'https://github.com/askfromap/PassCodeLock-Swift3.git' }
+s.source = { :git => 'https://github.com/askfromap/PassCodeLock-Swift3.git', :tag => "1.0.1" }
 
 s.ios.deployment_target = '9.2'
 

@@ -16,6 +16,7 @@ s.resources = [
 				'PasscodeLock/Views/PasscodeLockView.xib',
 				'PasscodeLock/en.lproj/*'
 			  ]
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 s.requires_arc = true
 end

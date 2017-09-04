@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-s.name = 'PasscodeLock'
+s.name = 'PasscodeLockSwift3'
 s.version = '1.0.1'
 s.license = { :type => "MIT", :file => 'LICENSE.txt' }
 s.summary = 'An iOS passcode lock with Touch ID authentication written in Swift.'
-s.homepage = 'https://github.com/yankodimitrov/SwiftPasscodeLock'
+s.homepage = 'https://github.com/askfromap/PassCodeLock-Swift3'
 s.authors = { 'Yanko Dimitrov' => '' }
-s.source = { :git => 'https://github.com/yankodimitrov/SwiftPasscodeLock.git' }
+s.source = { :git => 'https://github.com/askfromap/PassCodeLock-Swift3.git' }
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.2'
 
 s.source_files = 'PasscodeLock/*.{h,swift}',
 				 'PasscodeLock/*/*.{swift}'

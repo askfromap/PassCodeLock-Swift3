@@ -39,6 +39,7 @@ open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegat
     open var dismissCompletionCallback: (()->Void)?
     open var animateOnDismiss: Bool
     open var notificationCenter: NotificationCenter?
+    open var cancelCompletion: (()->Void)?
     
     internal let passcodeConfiguration: PasscodeLockConfigurationType
     internal var passcodeLock: PasscodeLockType
@@ -141,7 +142,7 @@ open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegat
     
     @IBAction func cancelButtonTap(_ sender: UIButton) {
         
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: cancelCompletion)
     }
     
     @IBAction func deleteSignButtonTap(_ sender: UIButton) {

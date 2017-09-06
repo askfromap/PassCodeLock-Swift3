@@ -14,6 +14,7 @@
                 <outlet property="cancelButton" destination="etg-x7-Mx1" id="ckg-NT-1rx"/>
                 <outlet property="deleteSignButton" destination="H78-kl-y6L" id="kHt-em-QUT"/>
                 <outlet property="descriptionLabel" destination="HbT-GO-CPk" id="gtS-ky-zzI"/>
+                <outlet property="logoImage" destination="6Ho-H9-jYd" id="jkN-Vn-aAK"/>
                 <outlet property="placeholdersX" destination="Wqo-IM-yCU" id="8td-lh-XMA"/>
                 <outlet property="titleLabel" destination="1wK-Ol-7mm" id="FOM-sv-dOO"/>
                 <outlet property="touchIDButton" destination="0Ph-dj-v7R" id="ifL-gW-Ttr"/>

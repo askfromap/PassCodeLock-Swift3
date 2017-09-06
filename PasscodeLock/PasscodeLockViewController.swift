@@ -141,7 +141,7 @@ open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegat
     
     @IBAction func cancelButtonTap(_ sender: UIButton) {
         
-        dismissPasscodeLock(passcodeLock)
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func deleteSignButtonTap(_ sender: UIButton) {

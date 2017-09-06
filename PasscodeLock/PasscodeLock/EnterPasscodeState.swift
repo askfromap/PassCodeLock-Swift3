@@ -20,7 +20,7 @@ struct EnterPasscodeState: PasscodeLockStateType {
     fileprivate var inccorectPasscodeAttempts = 0
     fileprivate var isNotificationSent = false
     
-    init(allowCancellation: Bool = false) {
+    init(allowCancellation: Bool = true) {
         
         isCancellableAction = allowCancellation
         title = localizedStringFor("PasscodeLockEnterTitle", comment: "Enter passcode title")

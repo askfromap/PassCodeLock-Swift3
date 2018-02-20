@@ -53,7 +53,7 @@ open class PasscodeLock: PasscodeLockType {
         
         guard passcode.characters.count > 0 else { return }
         
-        let index = passcode.index(passcode.startIndex, offsetBy: passcode.characters.count)
+        let index = passcode.index(passcode.startIndex, offsetBy: passcode.characters.count - 1)
         passcode = passcode.substring(to: index)
         delegate?.passcodeLock(self, removedSignAtIndex: passcode.characters.count)
     }
